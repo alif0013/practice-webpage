@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#main-header {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.logo-img {
+    padding: 30px;
+}
+
+.navbar-menu {
+    margin-top: 43px;
+    font-size: 20px;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    margin: 0 20px;
+    color: #000;
+    ;
+}
+
+button {
+    padding: 17px;
+    margin: 35px 30px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button a :hover {
+    color: rgb(47, 47, 126);
+}
+
+#banner-sec {
+    height: 600px;
+    width: 1150px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.banner-right img {
+    height: 510px;
+}
+.banner-left {
+    margin: 45px 0;
+}
+.banner-left h1 {
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 35px;
+}
+.banner-left p{
+    margin-bottom: 45px;
+    line-height: 30px;
+    font-size: 19px;
+}
+.banner-left a{
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+    font-size: 20px;
+}
+#workid{
+    width: 125px;
+    margin-top: 10px;
+    border: 1px solid blue;
+}
+#blue-sec{
+    height: 225px;
+    width: 100%;
+    background-color: #f0f6ff;
+}
+#blue-sec h2{
+    text-align: center;
+    padding: 75px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+
+}    
